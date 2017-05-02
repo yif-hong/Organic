@@ -6,7 +6,7 @@ package com.example.xr.organic;
 
 public class Experiment {
     private String name;
-    private  int imageId;
+    private int imageId;
 
     public Experiment(String name, int imageId) {
         this.name = name;

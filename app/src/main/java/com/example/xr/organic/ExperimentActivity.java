@@ -23,13 +23,14 @@ public class ExperimentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_experiment);
         Intent intent = getIntent();
         String experimentName = intent.getStringExtra(EXPERIMENT_NAME);
-        int experimentImageId = intent.getIntExtra(EXPERIMENT_IMAGE_ID,0);
+        int experimentImageId = intent.getIntExtra(EXPERIMENT_IMAGE_ID, 0);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_experiment);
-        CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id
+                .collapsing_toolbar);
         ImageView experimentImageView = (ImageView) findViewById(R.id.experiment_image_view);
         TextView experimentContentText = (TextView) findViewById(R.id.experiment_content_text);
         setSupportActionBar(toolbar);
-        ActionBar actionBar=getSupportActionBar();
+        ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
@@ -39,10 +40,10 @@ public class ExperimentActivity extends AppCompatActivity {
         experimentContentText.setText(experimentContent);
     }
 
-    private String initsExperimentContent(String experimentName){
+    private String initsExperimentContent(String experimentName) {
         //初始化每个实验的内容，暂时未写!
         StringBuilder experimentContent = new StringBuilder();
-        for (int i=0;i<1000;i++) {
+        for (int i = 0; i < 1000; i++) {
             experimentContent.append(experimentName);
         }
         return experimentContent.toString();
