@@ -10,25 +10,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.xr.organic.data.Experiment;
+import com.example.xr.organic.data.ExperimentDataBase;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Experiment[] experiments = {
-            new Experiment("熔点测定", R.drawable.organic1),
-            new Experiment("蒸馏及沸点测定", R.drawable.organic2),
-            new Experiment("乙酰苯胺的制备", R.drawable.organic3),
-            new Experiment("乙酸正丁酯的制备", R.drawable.organic4),
-            new Experiment("正溴丁烷的制备", R.drawable.organic5),
-            new Experiment("正丁基苯基醚的制备", R.drawable.organic6),
-            new Experiment("肉桂酸的制备", R.drawable.organic7),
-            new Experiment("苯甲酸苯甲醇的制备", R.drawable.organic8),
-            new Experiment("从茶叶中提取咖啡因", R.drawable.organic9),
-            new Experiment("从菠菜中提取叶绿素", R.drawable.organic10)
-    };
+    private final static int EXPERIMENTS_AMOUNT = 10;//总实验数量
     private List<Experiment> experimentList = new ArrayList<>();
-
     private ExperimentAdapter adapter;
 
     @Override
@@ -47,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void initsExperimentList() {
         experimentList.clear();
-        for (int i = 0; i < experiments.length; i++) {
-            experimentList.add(experiments[i]);
+        for (int i = 0; i < EXPERIMENTS_AMOUNT; i++) {
+            experimentList.add(ExperimentDataBase.getExperiments(i));
         }
     }
 
@@ -63,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.call_teacher:
                 Intent intent = new Intent(Intent.ACTION_DIAL);
+                //TODO: Change "10086" to teacher's telephone
                 intent.setData(Uri.parse("tel:10086"));
                 startActivity(intent);
                 break;

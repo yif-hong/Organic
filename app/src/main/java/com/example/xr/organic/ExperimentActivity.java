@@ -8,9 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+
+import static com.bumptech.glide.Glide.with;
 
 public class ExperimentActivity extends AppCompatActivity {
     public static final String EXPERIMENT_NAME = "experiment_name";
@@ -28,26 +29,31 @@ public class ExperimentActivity extends AppCompatActivity {
         CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id
                 .collapsing_toolbar);
         ImageView experimentImageView = (ImageView) findViewById(R.id.experiment_image_view);
-        TextView experimentContentText = (TextView) findViewById(R.id.experiment_content_text);
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
         collapsingToolbarLayout.setTitle(experimentName);
-        Glide.with(this).load(experimentImageId).into(experimentImageView);
-        String experimentContent = initsExperimentContent(experimentName);
-        experimentContentText.setText(experimentContent);
+        with(this).load(experimentImageId).into(experimentImageView);
+
+        //以下ImageView为实验内容图片，使用Glide加载jpg和gif
+
+        ImageView iv_experiment_1_1 = (ImageView) findViewById(R.id.iv_experiment_1_1);
+        Glide.with(this).load(R.drawable.iv_experiment_1_1).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_1);
+
+        ImageView iv_experiment_1_2 = (ImageView) findViewById(R.id.iv_experiment_1_2);
+        Glide.with(this).load(R.drawable.iv_experiment_1_2).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_2);
+
+        ImageView iv_experiment_1_3 = (ImageView) findViewById(R.id.iv_experiment_1_3);
+        Glide.with(this).load(R.drawable.iv_experiment_1_3).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_3);
+
+        ImageView iv_experiment_1_4 = (ImageView) findViewById(R.id.iv_experiment_1_4);
+        Glide.with(this).load(R.drawable.iv_experiment_1_4).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_4);
+
+
     }
 
-    private String initsExperimentContent(String experimentName) {
-        //初始化每个实验的内容，暂时未写!
-        StringBuilder experimentContent = new StringBuilder();
-        for (int i = 0; i < 1000; i++) {
-            experimentContent.append(experimentName);
-        }
-        return experimentContent.toString();
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

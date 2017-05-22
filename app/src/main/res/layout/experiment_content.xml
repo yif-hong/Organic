@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
-              android:id="@+id/experiment_content_view"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/experiment_content_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
@@ -13,14 +13,59 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="32dp"
-        app:cardCornerRadius="4dp"
-        >
+        app:cardCornerRadius="4dp">
 
-        <TextView
-            android:id="@+id/experiment_content_text"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"/>
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="一、实验目的：\n        学会使用齐列熔点测定器测定样品的熔点。\n\n二、实验原理：\n        一个固体物质的熔点，即是该物质在大气压力下，固液两相达平衡时的温度。当待测样品处于熔点温度时，固液两相的蒸气压才是一致的，固液两相才能共存，因此每一个纯化合物都有固定而又敏锐的熔点，即可以利用测量样品熔点的方法定性对其纯度进行检验。\n\n三、实验所需仪器和药品：\n        仪器：齐列熔点测定器（b形管）、熔点管、温度计、开口塞、酒精灯、橡皮圈、表面皿、长玻璃管。" />
+
+            <ImageView
+                android:id="@+id/iv_experiment_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="        药品：液体石蜡、萘、待测样品" />
+
+            <ImageView
+                android:id="@+id/iv_experiment_1_2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="四、实验步骤：\n        样品的准备：将样品在研钵中研细" />
+
+            <ImageView
+                android:id="@+id/iv_experiment_1_3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="        样品的装入：\n        取少量已研细的样品（黄豆粒般大小）放入表面皿中，堆成小堆；" />
+
+            <ImageView
+                android:id="@+id/iv_experiment_1_4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
     </android.support.v7.widget.CardView>
 
 

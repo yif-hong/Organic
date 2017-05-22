@@ -4,7 +4,6 @@
 
     <item
         android:id="@+id/call_teacher"
-        android:icon="@drawable/call"
         android:title="@string/call_teacher"
         app:showAsAction="never"/>
 </menu>
