@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.xr.organic.data.Experiment;
+import com.example.xr.organic.assist.Experiment;
 
 import java.util.List;
 
@@ -34,6 +34,7 @@ public class ExperimentAdapter extends RecyclerView.Adapter<ExperimentAdapter.Vi
         }
         View view = LayoutInflater.from(mContext).inflate(R.layout.experiment_item, parent, false);
         final ViewHolder holder = new ViewHolder(view);
+
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,6 +46,7 @@ public class ExperimentAdapter extends RecyclerView.Adapter<ExperimentAdapter.Vi
                 mContext.startActivity(intent);
             }
         });
+
         return holder;
     }
 
@@ -72,4 +74,6 @@ public class ExperimentAdapter extends RecyclerView.Adapter<ExperimentAdapter.Vi
             experimentName = (TextView) itemView.findViewById(R.id.experiment_name);
         }
     }
+
+
 }

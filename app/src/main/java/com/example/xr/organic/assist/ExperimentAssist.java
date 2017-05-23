@@ -1,4 +1,4 @@
-package com.example.xr.organic.data;
+package com.example.xr.organic.assist;
 
 import com.example.xr.organic.R;
 
@@ -6,8 +6,7 @@ import com.example.xr.organic.R;
  * Created by Xr on 5/22/2017.
  */
 
-public class ExperimentDataBase {
-
+public class ExperimentAssist {
     //返回主页面 实验项目，与Experiment Adapter相匹配
     public static Experiment getExperiments(int i) {
         Experiment[] experiments = {

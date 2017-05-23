@@ -1,4 +1,4 @@
-package com.example.xr.organic.data;
+package com.example.xr.organic.assist;
 
 /**
  * Created by jk on 2017/5/2.
