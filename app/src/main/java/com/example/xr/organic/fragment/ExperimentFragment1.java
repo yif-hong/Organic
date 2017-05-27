@@ -39,6 +39,43 @@ public class ExperimentFragment1 extends Fragment {
         ImageView iv_experiment_1_4 = (ImageView) view.findViewById(R.id.iv_experiment_1_4);
         Glide.with(this).load(R.drawable.iv_experiment_1_4).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_4);
 
+        ImageView iv_experiment_1_5 = (ImageView) view.findViewById(R.id.iv_experiment_1_5);
+        Glide.with(this).load(R.drawable.iv_experiment_1_5).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_5);
+
+        ImageView iv_experiment_1_6 = (ImageView) view.findViewById(R.id.iv_experiment_1_6);
+        Glide.with(this).load(R.drawable.iv_experiment_1_6).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_6);
+
+        ImageView iv_experiment_1_7 = (ImageView) view.findViewById(R.id.iv_experiment_1_7);
+        Glide.with(this).load(R.drawable.iv_experiment_1_7).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_7);
+
+        ImageView iv_experiment_1_8 = (ImageView) view.findViewById(R.id.iv_experiment_1_8);
+        Glide.with(this).load(R.drawable.iv_experiment_1_8).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_8);
+
+        ImageView iv_experiment_1_9 = (ImageView) view.findViewById(R.id.iv_experiment_1_9);
+        Glide.with(this).load(R.drawable.iv_experiment_1_9).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_9);
+
+        ImageView iv_experiment_1_10 = (ImageView) view.findViewById(R.id.iv_experiment_1_10);
+        Glide.with(this).load(R.drawable.iv_experiment_1_10).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_10);
+
+        ImageView iv_experiment_1_11 = (ImageView) view.findViewById(R.id.iv_experiment_1_11);
+        Glide.with(this).load(R.drawable.iv_experiment_1_11).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_11);
+
+        ImageView iv_experiment_1_12 = (ImageView) view.findViewById(R.id.iv_experiment_1_12);
+        Glide.with(this).load(R.drawable.iv_experiment_1_12).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_12);
+
+        ImageView iv_experiment_1_13 = (ImageView) view.findViewById(R.id.iv_experiment_1_13);
+        Glide.with(this).load(R.drawable.iv_experiment_1_13).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_13);
+
+        ImageView iv_experiment_1_14 = (ImageView) view.findViewById(R.id.iv_experiment_1_14);
+        Glide.with(this).load(R.drawable.iv_experiment_1_14).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_14);
+
+        ImageView iv_experiment_1_15 = (ImageView) view.findViewById(R.id.iv_experiment_1_15);
+        Glide.with(this).load(R.drawable.iv_experiment_1_15).placeholder(R.drawable.loading).crossFade().into(iv_experiment_1_15);
+
+
+
+
+
 
         return view;
 

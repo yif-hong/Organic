@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="四、实验步骤：\n        样品的准备：将样品在研钵中研细" />
+        android:text="四、实验步骤：\n  1、样品的准备：将样品在研钵中研细" />
 
     <ImageView
         android:id="@+id/iv_experiment_1_3"
@@ -41,12 +41,162 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="        样品的装入：\n        取少量已研细的样品（黄豆粒般大小）放入表面皿中，堆成小堆；" />
+        android:text="  2、样品的装入：\n      •	取少量已研细的样品（黄豆粒般大小）放入表面皿中，堆成小堆；" />
 
     <ImageView
         android:id="@+id/iv_experiment_1_4"
         android:layout_width="match_parent"
         android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="      •	将熔点管开口向下插入样品堆中，使样品挤入熔点管中；" />
+
+    <ImageView
+        android:id="@+id/iv_experiment_1_5"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="      •	将熔点管开口向上从一根长玻璃管中自由落到表面皿上，反复几次，使样品紧聚在管底，样品高度为2~3 mm。注意：样品要装得均匀而结实！" />
+
+    <ImageView
+        android:id="@+id/iv_experiment_1_6"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <ImageView
+        android:id="@+id/iv_experiment_1_7"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="  3、仪器的安装：采用齐列熔点测定器测试样品熔点的装置图如书中p53 图2-51（b）所示，在安装仪器时要注意一下几点：\n      •	向齐列熔点测定器中倒入导热液（液体石蜡），导热液的量要略高于齐列熔点测定器的上支管口的上端；\n      •	用铁夹将齐列熔点测定器固定于铁架台上；" />
+
+    <ImageView
+        android:id="@+id/iv_experiment_1_8"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="      •	将熔点管的下端用少许导热液润湿后，将其黏附于温度计旁并使样品部分正靠在温度计水银球的中部，采用橡皮圈将熔点管和温度计套牢，橡皮圈不要浸入导热液中；" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_experiment_1_9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/iv_experiment_1_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="      •	将温度计用开口塞固定在齐列熔点测定器中，温度计的水银球处于两支管口的中部，温度计的刻度朝向开口塞的开口部分；\n      •	温度计要在齐列熔点测定器的中央部分，不要歪斜；" />
+
+    <ImageView
+        android:id="@+id/iv_experiment_1_11"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="  4、样品的测试：齐列熔点测定器的加热位置为其两个支管的拐角处；" />
+
+    <ImageView
+        android:id="@+id/iv_experiment_1_12"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="        为准确的测定熔点，加热时需要注意以下几点：\n      •	开始加热速度可以快些，此时酒精灯可一直处在加热的位置，升温速度为5-8℃/min；\n      •	当温度距熔点温度10~15℃时，需缓慢加热而使温度徐徐上升，升温速度为1-2℃/min，此时加热的方法为将酒精灯不停的在加热位置进行晃动以减慢升温速度；" />
+
+    <ImageView
+        android:id="@+id/iv_experiment_1_13"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="      •	当温度接近待测样品熔点时要注意观察熔点管中样品的变化情况，记录熔点管中刚有小液滴出现（始熔温度T1）和样品恰好完全熔融（全熔温度T2）这两个温度的读数。用该种方法将获得一个温度范围，即熔程（T1~T2）。样品越纯净熔程越小。" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_experiment_1_14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/iv_experiment_1_15"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="五、实验注意事项：\n        本实验要测已知样品萘的熔点和一个未知样品的熔点，在测未知样品熔点时要进行初测和精测两次测量，初测时可保持加热速度为5℃/min匀速升温，获取未知样大概的熔点范围，之后进行精测，精测时加热速度将按照上述所得的熔点范围进行先快速加热再缓慢加热的方法，测量前要使齐列熔点测定器中导热液的温度下降至其熔点温度的30℃以下。" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="六、思考题\n1、分别测得A和B两样品的熔点各为100 ℃，将它们按任意比例混合后测得的熔点仍为100 ℃，这说明A和B两物质为（ A ）。\n    A. 同一物质\n    B. 不同的两种物质\n2、下列哪种情况能使测量结果比样品实际熔点高（  E、F  ）；\n      下列哪种情况能使测量结果比样品实际熔点低（ A、B、C  ）。\n    A. 熔点管底部未封严，尚有一肉眼难以观察到的针孔；\n    B. 熔点管不洁净；\n    C. 样品未完全干燥或含有杂质；\n    D. 样品研得不细或装得不紧；\n    E. 熔点管壁太厚；\n    F. 加热速度太快。" />
+
+    <Button
+        android:id="@+id/btn_exp1_show_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="显示答案"
+        android:textSize="20sp" />
 
 
 </LinearLayout>
