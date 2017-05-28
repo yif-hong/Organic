@@ -7,8 +7,52 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:text="一、实验目的：\n        学会使用齐列熔点测定器测定样品的熔点。\n\n二、实验原理：\n        一个固体物质的熔点，即是该物质在大气压力下，固液两相达平衡时的温度。当待测样品处于熔点温度时，固液两相的蒸气压才是一致的，固液两相才能共存，因此每一个纯化合物都有固定而又敏锐的熔点，即可以利用测量样品熔点的方法定性对其纯度进行检验。\n\n三、实验所需仪器和药品：\n        仪器：齐列熔点测定器（b形管）、熔点管、温度计、开口塞、酒精灯、橡皮圈、表面皿、长玻璃管。" />
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="一、实验目的："
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="        学会使用齐列熔点测定器测定样品的熔点。\n" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="二、实验原理："
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="        一个固体物质的熔点，即是该物质在大气压力下，固液两相达平衡时的温度。当待测样品处于熔点温度时，固液两相的蒸气压才是一致的，固液两相才能共存，因此每一个纯化合物都有固定而又敏锐的熔点，即可以利用测量样品熔点的方法定性对其纯度进行检验。\n" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="三、实验所需仪器和药品："
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="        仪器：齐列熔点测定器（b形管）、熔点管、温度计、开口塞、酒精灯、橡皮圈、表面皿、长玻璃管。" />
 
     <ImageView
         android:id="@+id/iv_experiment_1_1"
@@ -24,13 +68,27 @@
     <ImageView
         android:id="@+id/iv_experiment_1_2"
         android:layout_width="match_parent"
-        android:layout_height="200dp" />
+        android:layout_height="200dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:text="四、实验步骤：\n  1、样品的准备：将样品在研钵中研细" />
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="四、实验步骤："
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="  1、样品的准备：将样品在研钵中研细" />
 
     <ImageView
         android:id="@+id/iv_experiment_1_3"
@@ -177,26 +235,48 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:text="五、实验注意事项：\n        本实验要测已知样品萘的熔点和一个未知样品的熔点，在测未知样品熔点时要进行初测和精测两次测量，初测时可保持加热速度为5℃/min匀速升温，获取未知样大概的熔点范围，之后进行精测，精测时加热速度将按照上述所得的熔点范围进行先快速加热再缓慢加热的方法，测量前要使齐列熔点测定器中导热液的温度下降至其熔点温度的30℃以下。" />
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="五、实验注意事项："
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="        本实验要测已知样品萘的熔点和一个未知样品的熔点，在测未知样品熔点时要进行初测和精测两次测量，初测时可保持加热速度为5℃/min匀速升温，获取未知样大概的熔点范围，之后进行精测，精测时加热速度将按照上述所得的熔点范围进行先快速加热再缓慢加热的方法，测量前要使齐列熔点测定器中导热液的温度下降至其熔点温度的30℃以下。\n" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:text="六、思考题\n1、分别测得A和B两样品的熔点各为100 ℃，将它们按任意比例混合后测得的熔点仍为100 ℃，这说明A和B两物质为（ A ）。\n    A. 同一物质\n    B. 不同的两种物质\n2、下列哪种情况能使测量结果比样品实际熔点高（  E、F  ）；\n      下列哪种情况能使测量结果比样品实际熔点低（ A、B、C  ）。\n    A. 熔点管底部未封严，尚有一肉眼难以观察到的针孔；\n    B. 熔点管不洁净；\n    C. 样品未完全干燥或含有杂质；\n    D. 样品研得不细或装得不紧；\n    E. 熔点管壁太厚；\n    F. 加热速度太快。" />
+        android:text="六、思考题："
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="1、分别测得A和B两样品的熔点各为100 ℃，将它们按任意比例混合后测得的熔点仍为100 ℃，这说明A和B两物质为(        )。\n    A. 同一物质\n    B. 不同的两种物质\n\n2、下列哪种情况能使测量结果比样品实际熔点高(        )；\n      下列哪种情况能使测量结果比样品实际熔点低(        )。\n    A. 熔点管底部未封严，尚有一肉眼难以观察到的针孔；\n    B. 熔点管不洁净；\n    C. 样品未完全干燥或含有杂质；\n    D. 样品研得不细或装得不紧；\n    E. 熔点管壁太厚；\n    F. 加热速度太快。" />
 
     <Button
         android:id="@+id/btn_exp1_show_answer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
         android:layout_marginTop="16dp"
-        android:padding="16dp"
-        android:text="显示答案"
-        android:textSize="20sp" />
+        android:background="@drawable/button_blue"
+        android:textColor="#fff"
+        android:textSize="18sp" />
 
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.xr.organic.assist;
+package com.example.xr.organic.asset;
 
 /**
  * Created by jk on 2017/5/2.

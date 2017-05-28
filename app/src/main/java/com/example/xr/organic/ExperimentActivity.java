@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.example.xr.organic.fragment.ExperimentFragment1;
 
-import static com.example.xr.organic.assist.ExperimentAssist.getExperiments;
+import static com.example.xr.organic.asset.ExperimentAsset.getExperiments;
 
 public class ExperimentActivity extends AppCompatActivity {
 

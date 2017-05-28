@@ -10,8 +10,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.xr.organic.assist.Experiment;
-import com.example.xr.organic.assist.ExperimentAssist;
+import com.example.xr.organic.asset.Experiment;
+import com.example.xr.organic.asset.ExperimentAsset;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private void initsExperimentList() {
         experimentList.clear();
         for (int i = 0; i < EXPERIMENTS_AMOUNT; i++) {
-            experimentList.add(ExperimentAssist.getExperiments(i));
+            experimentList.add(ExperimentAsset.getExperiments(i));
         }
     }
 

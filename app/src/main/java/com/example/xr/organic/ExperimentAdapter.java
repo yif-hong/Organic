@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.xr.organic.assist.Experiment;
+import com.example.xr.organic.asset.Experiment;
 
 import java.util.List;
 
