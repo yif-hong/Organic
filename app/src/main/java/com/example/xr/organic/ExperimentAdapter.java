@@ -38,7 +38,7 @@ public class ExperimentAdapter extends RecyclerView.Adapter<ExperimentAdapter.Vi
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int position=holder.getAdapterPosition();
+                int position = holder.getAdapterPosition();
                 Experiment experiment = mExperimentList.get(position);
                 Intent intent = new Intent(mContext, ExperimentActivity.class);
                 intent.putExtra(ExperimentActivity.EXPERIMENT_NAME, experiment.getName());
